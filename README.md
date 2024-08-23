@@ -21,8 +21,8 @@ console.log(splitText("مرحبا"), "rtl"); // "rtl" is the default value
 ```
 ## Features
 
-    Correctly splits Arabic text considering positional forms.
-    Handles diacritical marks
+1. Correctly splits Arabic text considering positional forms.
+2. Handles diacritical marks
  
 
 ## License
