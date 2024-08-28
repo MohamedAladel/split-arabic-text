@@ -17,7 +17,10 @@ Import the splitText function and use it to split Arabic text:
 
 const splitText = require('split-arabic-text');
 
-console.log(splitText("مرحبا"), "rtl"); // "rtl" is the default value
+console.log(splitText("مرحبا", "rtl")); // "rtl" is the default value
+//this will return an array of all the chars make
+//it accepts a string and the direction 
+
 ```
 ## Features
 
